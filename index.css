@@ -1,0 +1,120 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    
+}
+
+img {
+    height: 50%;
+    width: 100%;
+    
+}
+
+.btn {
+    border: 1px solid cornflowerblue;
+    border-radius: 18px;
+    color: white;
+    width: 25%;
+    text-align: center;
+    background-color: rgb(11, 131, 172);
+    margin-left: 47.5%;
+    margin-top: 40%;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.btn:hover {
+    box-shadow: black 1px 1px 1px;
+    background-color: purple;
+}
+
+.center {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -165px;
+    margin-top: -230px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+    .center {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        margin-left: -174px;
+        margin-top: -53px;  
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .center {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -174px;
+        margin-top: -42px;  
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .center {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        margin-left: -174px;
+        margin-top: -473px;  
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .center {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        margin-left: -180px;
+        margin-top: -385px;  
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .center {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        margin-left: -180px;
+        margin-top: -311px;  
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .center {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        margin-left: -180px;
+        margin-top: -625px;  
+    }
+}
